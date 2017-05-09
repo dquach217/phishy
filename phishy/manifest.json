@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Phishy",
+  "description": "This extension shows a the Threat Level of a phishing email. We used an algorithgm to determine the threat level of the email contents as well as the certification fo the link it has provided.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click to Activate"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
